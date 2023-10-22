@@ -1,0 +1,29 @@
+body {
+  padding: 10px;
+}
+
+input {
+  margin: 5px;
+}
+
+input,
+textarea,
+select,
+button {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+textarea {
+  overflow: auto;
+}
+
+legend {
+  padding-bottom: 10px;
+}
+
+.radios {
+  flex-direction: row;
+}
